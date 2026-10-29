@@ -1,0 +1,6 @@
+file_path,expected_category,expected_sector,expected_panorama
+sample_01.jpg,Unknown,,
+sample_02.jpg,Tower,A,90
+sample_03.jpg,Unknown,,
+sample_04.jpg,Panel,B,180
+

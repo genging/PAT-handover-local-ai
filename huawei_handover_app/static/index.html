@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Huawei Site Handover</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar"><div><h1>Huawei Site Handover</h1><p>Local LAN workspace</p></div><div class="top-actions"><span id="server-state" class="pill">Local</span><button id="emergency-stop" class="emergency" onclick="emergencyStop()">EMERGENCY STOP</button></div></header>
+  <div class="layout">
+    <nav class="nav" aria-label="Main navigation">
+      <button data-view="dashboard" class="active">Dashboard</button><button data-view="setup">Site Setup</button>
+      <button data-view="photos">Photo Review</button><button data-view="errors">Error Queue</button>
+      <button data-view="activity">Activity Review</button><button data-view="chat">AI Chat</button>
+      <button data-view="output">Excel Output</button><button data-view="audit">Evaluation & Audit</button>
+    </nav>
+    <main id="app" class="content"></main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

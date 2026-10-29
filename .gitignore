@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.log
+report.html
+engine_v2/benchmark/report.html
+
+# Local runtime/data (do not publish site photos, Excel files, databases or AI indexes)
+Sites/
+0_Reference_Photos/
+*.xlsx
+*.xlsm
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+reports/
+huawei_handover_app/dinov2_faiss/
+huawei_handover_app/reference_embeddings.pkl
+huawei_handover_app/template_analysis.json
+huawei_handover_app/slot_reference_map.json
+huawei_handover_app/extraction_summary.json
+huawei_handover_app/custom_sort_rules.json
+
